@@ -8,6 +8,17 @@
 
 html {
     font-family: "Nunito", sans-serif;
+    color: #34435e;
+}
+
+.title {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #6369d1;
 }
 
 .container {
@@ -34,8 +45,42 @@ html {
     width: 100%;
     height: 100%;
     background-color: #d8d2e1;
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
 }
 
-td {
-    border: solid 1px;
+.paragraph {
+    line-height: 1.8em;
+}
+
+.table {
+    width: 100%;
+    border-spacing: 0;
+}
+
+.table th,
+.table td {
+    text-align: left;
+    padding: 1em;
+}
+
+.fa-star {
+    color: #6369d1;
+}
+
+.table tr:nth-child(even) {
+    background-color: #b88e8d;
+}
+
+.title-item {
+    border-bottom: solid 2px #6369d1;
+    padding-bottom: 1em;
+    margin-left: 10px;
+}
+
+.position {
+    padding: 10px;
+    background-color: #6369d1;
+    color: white;
+    border-radius: 4px;
 }
