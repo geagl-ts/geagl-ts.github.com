@@ -19,7 +19,7 @@ elementos_close.forEach((elemento_close) => {
 
         //mandame al inicio pero espera 500 milisegundos
         setTimeout((_) => {
-            location.href = "/";
+            location.href = "/boletines";
         }, 500);
     });
 });
